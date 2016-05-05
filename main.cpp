@@ -53,7 +53,7 @@ int czywygrana(int czy)
             przerwa(intToStr(i));
             if(plansza[i][0]+plansza[i][1]+plansza[i][2]==czy )//|| plansza[i][0]+plansza[i][2]==4 || plansza[i][1]+plansza[i][2]==4)
             {
-                //uzupe³nij trzeci iks
+                //uzupeÂ³nij trzeci iks
                 if(plansza[i][0]==0)
                 {
                     plansza[i][0]=2;
@@ -82,7 +82,7 @@ int czywygrana(int czy)
             przerwa(intToStr(i));
             if(plansza[0][i]+plansza[1][i]+plansza[2][i]==czy )//|| plansza[i][0]+plansza[i][2]==4 || plansza[i][1]+plansza[i][2]==4)
             {
-                //uzupe³nij trzeci iks
+                //uzupeÂ³nij trzeci iks
                 if(plansza[0][i]==0)
                 {
                     plansza[0][i]=2;
@@ -571,7 +571,7 @@ int ende()
 
 int main()
 {
-    przerwa("pocz¹tek main");
+    przerwa("poczÂ¹tek main");
 
 
 
